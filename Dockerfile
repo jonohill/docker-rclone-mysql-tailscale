@@ -1,6 +1,6 @@
 FROM ghcr.io/jonohill/docker-overmind:2.5.1 AS overmind
 
-FROM alpine:3.24.0
+FROM alpine:3.24.1
 
 RUN apk add --no-cache \
     jq \
